@@ -13,7 +13,7 @@ from typing import Optional, Dict, Any
 
 import requests 
 
-app = FastAPI(title="Aadhaar OCR Extractor (Gemini LLM Prompted)")
+app = FastAPI(title="Aadhaar OCR Extractor")
 
 try:
     reader = easyocr.Reader(['en'], gpu=False)
